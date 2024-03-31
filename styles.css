@@ -79,3 +79,10 @@ footer{
     text-align: center;
     text-decoration: solid;
 }
+@media (min-width: 767px) {
+   .container{
+    width: 50%;
+
+   }
+
+}
