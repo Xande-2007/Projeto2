@@ -5,10 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "C:/Users/Alexandre/Downloads/Projeto/index.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
             "type": "chrome",
             "request": "launch",
             "name": "Open Artes-marciais",
-            "file": "c:\\Users\\Alexandre\\Downloads\\Projeto\\Artes-marciais.html"
+            "file": "C:/Users/Alexandre/Downloads/Projeto/index.html"
         }
     ]
 }
