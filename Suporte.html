@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="">
     <title>Sobre mim</title>
 </head>
 <body>
@@ -27,7 +28,25 @@
         </nav>
         </header>
         <main>
-            
+            <h1>Contate-nos!</h1>
+            <p id="subtitulo">Insira sua informações e relate seu problema!</p>
+            <br>
+            <div>
+            <fieldset>
+                
+                    <label for="nome"> Nome:</label>
+                    <input type="text" nome="nome" id="nome" required>
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" nome="sobrenome" id="sobrenome" required>
+                    <label for="email">Email:</label>
+                    <input type="email" nome="email" id="email" required>
+            </fieldset>
+            </div>
+            <div class="espace">
+                <label class="area">Conte um pouco da sua experiência com o site:</label>
+                <textarea name="" id="" cols="50" rows="20"></textarea>
+            </div>
+            <button type="submit" id="butao">Concluído</button>
         </main>
 </body>
 </html>

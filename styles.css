@@ -81,8 +81,36 @@ footer{
 }
 @media (min-width: 767px) {
    .container{
-    width: 50%;
+    width: 95%;
 
    }
 
+}
+#subtitulo{
+    font-family: cursive;
+    color: coral;
+    margin-left: 7%;
+}
+input, textarea{
+    border-radius: 5px;
+}
+label{
+    margin-left: 5px;
+    padding-left: 6px;
+}
+.area{
+    float: left;
+    padding-top: 29px;
+    padding-right: 29px;
+    font-size: 26px;
+}
+#butao:hover{
+background-color: rgb(138, 44, 201);
+color: black;
+}
+textarea{
+    padding-top: 30px;
+}
+.espace{
+    padding-top: 30px;
 }
